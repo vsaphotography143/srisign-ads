@@ -21,7 +21,7 @@
 const SHEET_NAME = 'Enquiries';
 
 // Number that receives the WhatsApp messages (country code + number, NO "+")
-const WHATSAPP_NUMBER = '9183285363203';
+const WHATSAPP_NUMBER = '918328536203';
 
 // Free WhatsApp bridge - get your key from https://www.callmebot.com
 const CALLMEBOT_KEY = 'YOUR_CALLMEBOT_API_KEY'; // <-- REPLACE ME
