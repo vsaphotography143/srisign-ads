@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1d3557"/>
+      <stop offset="1" stop-color="#0d1b2a"/>
+    </linearGradient>
+    <linearGradient id="cardG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f1f3f5"/>
+    </linearGradient>
+    <linearGradient id="navy" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1d3557"/>
+      <stop offset="1" stop-color="#457b9d"/>
+    </linearGradient>
+    <linearGradient id="copper" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#cf8f3e"/>
+      <stop offset="1" stop-color="#f4a261"/>
+    </linearGradient>
+    <filter id="shadow2" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="8" dy="16" stdDeviation="18" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="700" fill="url(#bg)"/>
+  <circle cx="120" cy="600" r="150" fill="#e63946" opacity="0.1"/>
+
+  <g transform="translate(400,310)">
+
+    <g transform="translate(-160,-95) rotate(-7)" filter="url(#shadow2)">
+      <rect x="0" y="0" width="210" height="126" rx="8" fill="url(#cardG)"/>
+      <rect x="0" y="0" width="210" height="42" rx="8" fill="url(#navy)"/>
+      <rect x="0" y="26" width="210" height="16" fill="url(#navy)"/>
+      <circle cx="30" cy="21" r="10" fill="#ffffff" opacity="0.9"/>
+      <rect x="47" y="16" width="55" height="10" rx="5" fill="#ffffff" opacity="0.95"/>
+      <circle cx="120" cy="26" r="28" fill="#e63946" opacity="0.25"/>
+      <text x="120" y="34" text-anchor="middle" font-family="Arial" font-size="17" font-weight="800" fill="#ffffff">SR</text>
+      <rect x="18" y="56" width="90" height="8" rx="4" fill="#1d3557" opacity="0.85"/>
+      <rect x="18" y="69" width="66" height="6" rx="3" fill="#8d99ae"/>
+      <rect x="18" y="84" width="72" height="6" rx="3" fill="#8d99ae" opacity="0.7"/>
+      <rect x="18" y="99" width="100" height="6" rx="3" fill="#adb5bd" opacity="0.6"/>
+      <rect x="146" y="102" width="50" height="9" rx="4.5" fill="#e63946"/>
+      <text x="171" y="109" text-anchor="middle" font-family="Arial" font-size="8" fill="#fff" font-weight="700">SRI SIGN ADS</text>
+    </g>
+
+    <g transform="translate(95,-95) rotate(5)" filter="url(#shadow2)">
+      <rect x="0" y="0" width="210" height="126" rx="8" fill="url(#cardG)"/>
+      <rect x="0" y="0" width="210" height="126" rx="8" fill="url(#cardG)"/>
+      <rect x="0" y="0" width="210" height="42" rx="8" fill="url(#copper)"/>
+      <rect x="0" y="26" width="210" height="16" fill="url(#copper)"/>
+      <rect x="18" y="16" width="60" height="10" rx="5" fill="#ffffff" opacity="0.9"/>
+      <rect x="18" y="52" width="80" height="8" rx="4" fill="#6b5317" opacity="0.85"/>
+      <rect x="18" y="65" width="58" height="6" rx="3" fill="#8d99ae"/>
+      <rect x="18" y="80" width="70" height="6" rx="3" fill="#8d99ae" opacity="0.7"/>
+      <rect x="18" y="95" width="90" height="6" rx="3" fill="#adb5bd" opacity="0.6"/>
+      <circle cx="165" cy="92" r="16" fill="url(#copper)"/>
+      <text x="165" y="96" text-anchor="middle" font-family="Arial" font-size="9" fill="#fff" font-weight="800">SA</text>
+    </g>
+
+    <g transform="translate(-160,140) rotate(6)">
+      <rect x="0" y="0" width="210" height="126" rx="8" fill="url(#cardG)" filter="url(#shadow2)"/>
+      <rect x="0" y="0" width="210" height="126" rx="8" fill="url(#cardG)"/>
+      <rect x="0" y="0" width="210" height="42" rx="8" fill="#0d1b2a"/>
+      <rect x="0" y="26" width="210" height="16" fill="#0d1b2a"/>
+      <text x="24" y="28" font-family="Arial" font-size="15" font-weight="800" fill="#ffffff">Design Studio</text>
+      <rect x="24" y="54" width="78" height="8" rx="4" fill="#1d3557" opacity="0.8"/>
+      <rect x="24" y="67" width="60" height="6" rx="3" fill="#8d99ae"/>
+      <rect x="24" y="99" width="34" height="12" rx="6" fill="#0d1b2a"/>
+    </g>
+
+    <g transform="translate(95,140) rotate(-6)">
+      <rect x="0" y="0" width="210" height="126" rx="8" fill="url(#cardG)" filter="url(#shadow2)"/>
+      <rect x="0" y="0" width="210" height="42" rx="8" fill="#e63946"/>
+      <rect x="0" y="26" width="210" height="16" fill="#e63946"/>
+      <circle cx="168" cy="34" r="18" fill="#ffffff" opacity="0.2"/>
+      <text x="22" y="29" font-family="Arial" font-size="14" font-weight="800" fill="#ffffff">BUSINESS CARD</text>
+      <rect x="22" y="54" width="84" height="8" rx="4" fill="#c1121f" opacity="0.8"/>
+      <rect x="22" y="67" width="64" height="6" rx="3" fill="#8d99ae"/>
+      <rect x="22" y="82" width="100" height="6" rx="3" fill="#8d99ae" opacity="0.7"/>
+      <rect x="22" y="97" width="44" height="10" rx="5" fill="#c1121f"/>
+    </g>
+  </g>
+
+  <text x="400" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="800" fill="#ffffff" letter-spacing="6">VISITING CARDS</text>
+  <text x="400" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#a8dadc" letter-spacing="4">PREMIUM BUSINESS CARD DESIGNS</text>
+  <line x1="330" y1="612" x2="470" y2="612" stroke="#e63946" stroke-width="3" stroke-linecap="round"/>
+  <text x="400" y="645" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#8d99ae" letter-spacing="2">SAMPLE DESIGN • SRI SIGN ADS</text>
+</svg>

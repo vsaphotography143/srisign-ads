@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b1b32"/>
+      <stop offset="1" stop-color="#0d1b2a"/>
+    </linearGradient>
+    <linearGradient id="rose" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8c8dc"/>
+      <stop offset="1" stop-color="#e8a3c3"/>
+    </linearGradient>
+    <linearGradient id="goldG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d4af37"/>
+      <stop offset="0.5" stop-color="#f5d778"/>
+      <stop offset="1" stop-color="#b8860b"/>
+    </linearGradient>
+    <filter id="shadow3" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="20" stdDeviation="26" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="700" fill="url(#bg)"/>
+  <circle cx="150" cy="100" r="120" fill="#e8a3c3" opacity="0.08"/>
+  <circle cx="660" cy="600" r="160" fill="#d4af37" opacity="0.07"/>
+
+  <g transform="translate(400,300)" filter="url(#shadow3)">
+    <rect x="-170" y="-200" width="340" height="400" rx="10" fill="#fff9f5"/>
+    <rect x="-170" y="-200" width="340" height="400" rx="10" fill="none" stroke="#d4af37" stroke-width="3"/>
+
+    <rect x="-152" y="-182" width="304" height="364" rx="6" fill="none" stroke="#e8a3c3" stroke-width="2" stroke-dasharray="4 4"/>
+    <rect x="-138" y="-168" width="276" height="336" rx="4" fill="none" stroke="#d4af37" stroke-width="1.2" opacity="0.7"/>
+
+    <path d="M0,-150 C40,-128 66,-100 60,-68 C56,-44 34,-34 0,-28 C-34,-34 -56,-44 -60,-68 C-66,-100 -40,-128 0,-150Z" fill="url(#goldG)" opacity="0.85"/>
+    <circle cx="0" cy="-95" r="5" fill="#ffffff" opacity="0.9"/>
+
+    <text x="0" y="-55" text-anchor="middle" font-family="Georgia, serif" font-size="15" letter-spacing="6" fill="#b8860b">WEDDING</text>
+    <text x="0" y="-30" text-anchor="middle" font-family="Georgia, serif" font-size="15" letter-spacing="6" fill="#b8860b">INVITATION</text>
+
+    <text x="0" y="12" text-anchor="middle" font-family="Georgia, serif" font-size="40" font-style="italic" fill="#a4161a">Rahul  &amp;  Priya</text>
+    <text x="0" y="40" text-anchor="middle" font-family="Georgia, serif" font-size="14" letter-spacing="3" fill="#6b705c">TIE THE KNOT ON</text>
+    <text x="0" y="66" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#d4af37">23 · NOVEMBER · 2026</text>
+
+    <line x1="-90" y1="86" x2="90" y2="86" stroke="#d4af37" stroke-width="1.5"/>
+    <text x="0" y="110" text-anchor="middle" font-family="Georgia, serif" font-size="11" letter-spacing="4" fill="#8d99ae">PALACE GARDENS, NEW DELHI</text>
+
+    <path d="M0,132 C18,138 26,144 20,150 C26,144 22,136 0,132Z" fill="#e8a3c3" opacity="0.6"/>
+    <path d="M0,138 C-18,144 -26,150 -20,156 C-26,150 -22,142 0,138Z" fill="#f8c8dc" opacity="0.6"/>
+  </g>
+
+  <text x="400" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="800" fill="#ffffff" letter-spacing="6">WEDDING CARDS</text>
+  <text x="400" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#e8a3c3" letter-spacing="4">PREMIUM FOIL &amp; EMBOSSED INVITES</text>
+  <line x1="330" y1="612" x2="470" y2="612" stroke="#d4af37" stroke-width="3" stroke-linecap="round"/>
+  <text x="400" y="645" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#8d99ae" letter-spacing="2">SAMPLE DESIGN • SRI SIGN ADS</text>
+</svg>
