@@ -69,6 +69,7 @@ const contactForm = document.getElementById('contactForm');
 // Google Apps Script Web App URL - REPLACE after deployment (see Code.gs)
 const ENQUIRY_ENDPOINT = 'REPLACE_WITH_YOUR_WEB_APP_URL';
 
+if (contactForm) {
 contactForm.addEventListener('submit', async (e) => {
     e.preventDefault();
 
@@ -135,6 +136,7 @@ contactForm.addEventListener('submit', async (e) => {
         }, 6000);
     }
 });
+}
 
 // Animated counter for hero stats
 function animateCounter(el, target, duration) {
