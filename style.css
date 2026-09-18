@@ -408,6 +408,7 @@ img {
     position: relative;
     z-index: 2;
     padding-top: 90px;
+    padding-bottom: 130px;
 }
 
 .hero-eyebrow {
