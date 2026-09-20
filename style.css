@@ -3135,3 +3135,177 @@ html[data-theme="light"] .dm-exp-list li { color: #444; }
 html[data-theme="light"] .dm-exp-stats { background: #f5f7fb; border-color: rgba(0, 0, 0, 0.08); }
 html[data-theme="light"] .dm-exp-img-main { border-color: rgba(0, 0, 0, 0.08); }
 html[data-theme="light"] .dm-exp-img-card { border-color: #ffffff; }
+
+/* ==========================================================
+   WHO WE ARE SECTION (digital marketing)
+   ========================================================== */
+.dm-about {
+    padding: 100px 0;
+    background: #11111c;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    position: relative;
+    overflow: hidden;
+}
+
+.dm-about::after {
+    content: '';
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(212, 175, 55, 0.06), transparent 70%);
+    bottom: -180px;
+    left: -140px;
+    pointer-events: none;
+}
+
+.dm-about-grid {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 56px;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.dm-about-text .section-tag { margin-bottom: 14px; }
+
+.dm-about-text h2 {
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: var(--white);
+    line-height: 1.18;
+    margin-bottom: 16px;
+    letter-spacing: -0.5px;
+}
+
+.dm-about-text > p {
+    color: rgba(255, 255, 255, 0.68);
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    max-width: 520px;
+}
+
+.dm-about-benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.dm-about-benefit {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 14px;
+    transition: var(--transition);
+}
+
+.dm-about-benefit:hover {
+    background: rgba(255, 255, 255, 0.09);
+    border-color: rgba(230, 57, 70, 0.4);
+    transform: translateX(6px);
+}
+
+.dm-about-benefit-icon {
+    width: 54px;
+    height: 54px;
+    min-width: 54px;
+    background: linear-gradient(135deg, rgba(230, 57, 70, 0.2), rgba(244, 162, 97, 0.15));
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    color: var(--accent);
+}
+
+.dm-about-benefit h4 {
+    color: var(--white);
+    font-size: 1.02rem;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+
+.dm-about-benefit p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.85rem;
+    line-height: 1.6;
+}
+
+.dm-about-side {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius);
+    padding: 34px;
+    backdrop-filter: blur(12px);
+}
+
+.dm-about-side h3 {
+    color: var(--white);
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.dm-about-side h3 i { color: var(--primary); }
+
+.dm-about-services {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 26px;
+}
+
+.dm-about-services li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: rgba(255, 255, 255, 0.88);
+    font-size: 0.95rem;
+    font-weight: 500;
+    padding: 14px 16px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    transition: var(--transition);
+}
+
+.dm-about-services li:hover {
+    background: rgba(230, 57, 70, 0.15);
+    border-color: rgba(230, 57, 70, 0.3);
+    transform: translateX(4px);
+}
+
+.dm-about-services li i { color: var(--gold); font-size: 0.75rem; }
+
+@media (max-width: 992px) {
+    .dm-about-grid { grid-template-columns: 1fr; gap: 40px; }
+}
+
+@media (max-width: 480px) {
+    .dm-about-text h2 { font-size: 1.8rem; }
+    .dm-about-side { padding: 24px; }
+}
+
+/* Light theme overrides */
+html[data-theme="light"] .dm-about { background: #ffffff; border-top-color: rgba(0, 0, 0, 0.06); }
+html[data-theme="light"] .dm-about-text h2,
+html[data-theme="light"] .dm-about-side h3,
+html[data-theme="light"] .dm-about-benefit h4 { color: var(--dark); }
+html[data-theme="light"] .dm-about-text > p,
+html[data-theme="light"] .dm-about-benefit p { color: var(--gray); }
+html[data-theme="light"] .dm-about-benefit,
+html[data-theme="light"] .dm-about-services li { background: #ffffff; border-color: rgba(0, 0, 0, 0.08); }
+html[data-theme="light"] .dm-about-benefit:hover { background: #f5f7fb; }
+html[data-theme="light"] .dm-about-services li { color: #333; }
+html[data-theme="light"] .dm-about-services li:hover { background: rgba(230, 57, 70, 0.08); }
+html[data-theme="light"] .dm-about-side { background: #f5f7fb; }
+html[data-theme="light"] .dm-about-benefit-icon { border-color: rgba(0, 0, 0, 0.1); }
