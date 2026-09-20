@@ -2963,3 +2963,175 @@ body, .navbar, .service-card, .digital-card, .testimonial-card,
     html[data-theme="light"] .nav-links a { color: var(--dark) !important; }
     html[data-theme="light"] .nav-links a:hover { color: var(--primary) !important; }
 }
+
+/* ==========================================================
+   DIGITAL MARKETING EXPERIENCE SECTION
+   ========================================================== */
+.dm-experience {
+    padding: 100px 0;
+    background: #0c0c16;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    position: relative;
+    overflow: hidden;
+}
+
+.dm-experience::before {
+    content: '';
+    position: absolute;
+    width: 520px;
+    height: 520px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(230, 57, 70, 0.07), transparent 70%);
+    top: -160px;
+    right: -140px;
+    pointer-events: none;
+}
+
+.dm-exp-grid {
+    display: grid;
+    grid-template-columns: 1.05fr 1fr;
+    gap: 60px;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.dm-exp-media { position: relative; padding: 0 10px 30px 0; }
+
+.dm-exp-img-main {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-lg);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dm-exp-img-card {
+    position: absolute;
+    right: -14px;
+    bottom: -6px;
+    width: 45%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: var(--radius);
+    border: 5px solid #0c0c16;
+    box-shadow: var(--shadow-lg);
+}
+
+.dm-exp-badge {
+    position: absolute;
+    top: -22px;
+    left: 18px;
+    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+    color: var(--white);
+    border-radius: 18px;
+    padding: 14px 18px;
+    text-align: center;
+    box-shadow: 0 14px 34px rgba(230, 57, 70, 0.5);
+    z-index: 3;
+    transform: rotate(-3deg);
+}
+
+.dm-exp-badge strong {
+    display: block;
+    font-size: 1.55rem;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.dm-exp-badge span {
+    font-size: 0.62rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    opacity: 0.9;
+}
+
+.dm-exp-content .section-tag { margin-bottom: 14px; }
+
+.dm-exp-content h2 {
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: var(--white);
+    line-height: 1.18;
+    margin-bottom: 16px;
+    letter-spacing: -0.5px;
+}
+
+.dm-exp-content > p {
+    color: rgba(255, 255, 255, 0.68);
+    font-size: 0.98rem;
+    line-height: 1.8;
+    margin-bottom: 22px;
+}
+
+.dm-exp-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.dm-exp-list li {
+    display: flex;
+    gap: 10px;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.94rem;
+    align-items: flex-start;
+}
+
+.dm-exp-list li i {
+    color: var(--accent);
+    margin-top: 4px;
+    font-size: 0.8rem;
+}
+
+.dm-exp-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+    padding: 22px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius);
+}
+
+.dm-exp-stat { text-align: center; }
+
+.dm-exp-stat h3 {
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: var(--primary);
+    line-height: 1;
+}
+
+.dm-exp-stat p {
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.55);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 6px;
+}
+
+@media (max-width: 992px) {
+    .dm-exp-grid { grid-template-columns: 1fr; gap: 64px; }
+    .dm-exp-img-card { right: 0; }
+}
+
+@media (max-width: 480px) {
+    .dm-exp-content h2 { font-size: 1.8rem; }
+    .dm-exp-stats { grid-template-columns: 1fr; }
+    .dm-exp-badge { top: -18px; left: 12px; padding: 10px 14px; transform: none; }
+    .dm-exp-img-card { position: static; margin-top: 18px; width: 100%; border: none; }
+    .dm-exp-media { padding: 0; }
+}
+
+/* Light theme overrides */
+html[data-theme="light"] .dm-experience { background: #ffffff; border-top-color: rgba(0, 0, 0, 0.06); }
+html[data-theme="light"] .dm-exp-content h2 { color: var(--dark); }
+html[data-theme="light"] .dm-exp-content > p,
+html[data-theme="light"] .dm-exp-stat p { color: var(--gray); }
+html[data-theme="light"] .dm-exp-list li { color: #444; }
+html[data-theme="light"] .dm-exp-stats { background: #f5f7fb; border-color: rgba(0, 0, 0, 0.08); }
+html[data-theme="light"] .dm-exp-img-main { border-color: rgba(0, 0, 0, 0.08); }
+html[data-theme="light"] .dm-exp-img-card { border-color: #ffffff; }
