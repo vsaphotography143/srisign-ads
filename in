@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - SRI SIGN ADS</title>
+    <title>Contact Us - SRI SIGN ADS</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +26,6 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="services.html">Services</a></li>
-                <li><a href="digital-marketing.html">Digital Marketing</a></li>
                 <li><a href="products.html">Products</a></li>
                 <li><a href="our-work.html">Our Work</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -58,139 +57,91 @@
         <i class="fas fa-chevron-left founder-toggle-icon"></i>
     </button>
 
-    <!-- Machines Section -->
-    <section class="machines" id="machines">
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">Our Equipment</span>
-                <h2>Allwin <span class="grad-text">512i Flex Machine</span></h2>
-                <p>Latest Allwin 512i high-speed flex printer for sharp, vibrant prints</p>
+                <span class="section-tag">Contact Us</span>
+                <h2>Get In <span class="grad-text">Touch</span></h2>
+                <p>Ready to start your printing project? Drop us a message today!</p>
             </div>
-            <div class="machine-layout">
-                <div class="machine-showcase tilt-card">
-                    <img src="images/allwin-machine-512i.png" alt="Allwin 512i Flex Printing Machine">
-                    <span class="machine-tag"><i class="fas fa-star"></i> In Production</span>
-                </div>
-                <div class="machine-caption">
-                    <h3>Allwin 512i Flex Printing Machine</h3>
-                    <p>High-speed flex printer delivering sharp, vibrant, long-lasting prints for banners, flex and outdoor advertising.</p>
-                    <ul>
-                        <li><i class="fas fa-check"></i> High-Speed Large Format Printing</li>
-                        <li><i class="fas fa-check"></i> Vivid &amp; Fade-Resistant Colours</li>
-                        <li><i class="fas fa-check"></i> Ideal for Banners &amp; Hoardings</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Why Choose Us -->
-    <section class="why-us" id="about">
-        <div class="container">
-            <div class="why-us-grid">
-                <div class="why-us-content">
-                    <span class="section-tag">Why SriSign Ads</span>
-                    <h2>Printing You Can <span class="grad-text">Trust &amp; Feel</span></h2>
-                    <p class="why-us-desc">We combine the latest Allwin machinery with skilled design and finishing to deliver prints that stand out — in quality, colour and durability.</p>
-                    <div class="features-list">
-                        <div class="feature-item tilt-card">
-                            <div class="feature-icon"><i class="fas fa-award"></i></div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Fill the form and we will get back to you within 24 hours.</p>
+                    <div class="info-items">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
                             <div>
-                                <h4>Vivid HD Quality</h4>
-                                <p>Sharp, fade-resistant prints using premium inks and latest flex machines.</p>
+                                <h4>Visit Us</h4>
+                                <p>Yanam, Puducherry<br>India 533464<br>Lingampally, Hyderabad<br>Telangana 500019</p>
                             </div>
                         </div>
-                        <div class="feature-item tilt-card">
-                            <div class="feature-icon"><i class="fas fa-bolt"></i></div>
+                        <div class="info-item">
+                            <i class="fas fa-phone-alt"></i>
                             <div>
-                                <h4>Fast Turnaround</h4>
-                                <p>High-speed production with same-day and express delivery options.</p>
+                                <h4>Call Us</h4>
+                                <p>+91 83285 36203</p>
                             </div>
                         </div>
-                        <div class="feature-item tilt-card">
-                            <div class="feature-icon"><i class="fas fa-hand-holding-usd"></i></div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
                             <div>
-                                <h4>Affordable Pricing</h4>
-                                <p>Best market prices with attractive bulk and repeat-order discounts.</p>
+                                <h4>Email Us</h4>
+                                <p>info@srisignads.com<br>orders@srisignads.com</p>
                             </div>
                         </div>
-                        <div class="feature-item tilt-card">
-                            <div class="feature-icon"><i class="fas fa-headset"></i></div>
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
                             <div>
-                                <h4>Free Design Support</h4>
-                                <p>In-house designers help you create or refine your artwork at no extra cost.</p>
+                                <h4>Working Hours</h4>
+                                <p>Open 24 Hours<br>All Days</p>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="why-us-visual">
-                    <div class="visual-3d v3d-1">
-                        <i class="fas fa-print"></i>
-                        <h4>Allwin Power</h4>
-                        <p>Latest flex technology</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/srisign.ads/?hl=en" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/918328536203" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
                     </div>
-                    <div class="visual-3d v3d-2">
-                        <i class="fas fa-palette"></i>
-                        <h4>Creative Studio</h4>
-                        <p>Design-first approach</p>
+                </div>
+                <form class="contact-form tilt-card" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" placeholder="Your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" placeholder="Your phone number" required>
+                        </div>
                     </div>
-                    <div class="visual-3d v3d-3">
-                        <i class="fas fa-users"></i>
-                        <h4>50K+ Customers</h4>
-                        <p>Trusted for 5+ years</p>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="Your email address" required>
                     </div>
-                    <div class="orb orb-1"></div>
-                    <div class="orb orb-2"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Founder -->
-    <section class="founder-section">
-        <div class="container">
-            <div class="founder-card tilt-card">
-                <div class="founder-img-wrap">
-                    <img src="images/founder.jpg" alt="Founder Ram Vinay Nagubattula" class="founder-img">
-                </div>
-                <div class="founder-info">
-                    <span class="section-tag">Meet Our Founder</span>
-                    <h3>Ram Vinay <span class="grad-text">Nagubattula</span></h3>
-                    <p>5+ years in printing, design and digital marketing — passionate about delivering quality prints and creative solutions for every customer.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Process Section -->
-    <section class="process">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Simple &amp; Fast</span>
-                <h2>How It <span class="grad-text">Works</span></h2>
-                <p>Getting your print job done is easy in 4 simple steps</p>
-            </div>
-            <div class="process-grid">
-                <div class="process-step tilt-card">
-                    <div class="step-number">1</div>
-                    <h4>Choose Service</h4>
-                    <p>Pick the printing service you need from our wide range</p>
-                </div>
-                <div class="process-step tilt-card">
-                    <div class="step-number">2</div>
-                    <h4>Submit Design</h4>
-                    <p>Upload your design or let our studio create one for you</p>
-                </div>
-                <div class="process-step tilt-card">
-                    <div class="step-number">3</div>
-                    <h4>Get Quote</h4>
-                    <p>Receive a clear quote with pricing &amp; delivery time</p>
-                </div>
-                <div class="process-step tilt-card">
-                    <div class="step-number">4</div>
-                    <h4>Fast Delivery</h4>
-                    <p>Collect in-store or get it delivered to your doorstep</p>
-                </div>
+                    <div class="form-group">
+                        <label for="service">Service Required</label>
+                        <select id="service" required>
+                            <option value="" disabled selected>Select a service</option>
+                            <option value="flex">Flex Printing</option>
+                            <option value="visiting">Visiting Cards</option>
+                            <option value="photo">Photo Frames</option>
+                            <option value="wedding">Wedding Cards</option>
+                            <option value="boards">Form Boards</option>
+                            <option value="brochure">Brochures &amp; Pamphlets</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" rows="4" placeholder="Tell us about your requirements..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
             </div>
         </div>
     </section>
@@ -229,7 +180,6 @@
                         <li><a href="services.html">Photo Frames</a></li>
                         <li><a href="services.html">Wedding Cards</a></li>
                         <li><a href="services.html">Form Boards</a></li>
-                        <li><a href="digital-marketing.html">Digital Marketing</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">

@@ -2758,3 +2758,20 @@ body { background: #0a0a0f; color: #e2e2ea; }
     .whatsapp-float-text span,
     .whatsapp-float-text strong { font-size: 0.78rem; }
 }
+
+/* Digital Marketing page grid */
+.dm-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 26px;
+    position: relative;
+    z-index: 2;
+}
+
+.dm-extra-link {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    position: relative;
+    z-index: 2;
+}
