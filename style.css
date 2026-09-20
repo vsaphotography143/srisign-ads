@@ -2775,3 +2775,191 @@ body { background: #0a0a0f; color: #e2e2ea; }
     position: relative;
     z-index: 2;
 }
+
+/* ==========================================================
+   THEME TOGGLE BUTTON
+   ========================================================== */
+.theme-toggle {
+    margin-left: auto;
+    margin-right: 6px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: var(--white);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: var(--transition);
+    z-index: 1001;
+    flex-shrink: 0;
+}
+.theme-toggle:hover {
+    background: var(--primary);
+    border-color: var(--primary);
+    transform: rotate(20deg) scale(1.05);
+}
+
+/* ==========================================================
+   LIGHT THEME — html[data-theme="light"]
+   ========================================================== */
+html[data-theme="light"] body { background: #f5f7fb; color: #333; }
+
+/* Navbar (light) */
+html[data-theme="light"] .navbar {
+    background: rgba(255, 255, 255, 0.96);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+html[data-theme="light"] .navbar .logo-text,
+html[data-theme="light"] .navbar .nav-links a:not(.btn-nav),
+html[data-theme="light"] .navbar .nav-toggle,
+html[data-theme="light"] .navbar.scrolled .logo-text,
+html[data-theme="light"] .navbar.scrolled .nav-links a:not(.btn-nav),
+html[data-theme="light"] .navbar.scrolled .nav-toggle { color: var(--dark); }
+html[data-theme="light"] .navbar.scrolled { background: rgba(255, 255, 255, 0.98); box-shadow: 0 10px 34px rgba(0, 0, 0, 0.08); }
+html[data-theme="light"] .theme-toggle { background: #f1f3f9; border-color: rgba(0, 0, 0, 0.12); color: var(--dark); }
+html[data-theme="light"] .theme-toggle:hover { background: var(--primary); border-color: var(--primary); color: var(--white); }
+
+/* Section surfaces (light) */
+html[data-theme="light"] .services,
+html[data-theme="light"] .portfolio                            { background: #ffffff; }
+html[data-theme="light"] .products,
+html[data-theme="light"] .why-us,
+html[data-theme="light"] .process,
+html[data-theme="light"] .contact                               { background: #f5f7fb; }
+html[data-theme="light"] .founder-section    { background: linear-gradient(135deg, rgba(230, 57, 70, 0.04), rgba(255, 109, 0, 0.03)); }
+
+/* Dark gradient sections -> light */
+html[data-theme="light"] .digital-services,
+html[data-theme="light"] .testimonials       { background: linear-gradient(160deg, #ffffff 0%, #eef1f7 100%); }
+html[data-theme="light"] .machines           { background: linear-gradient(160deg, #f5f7fb 0%, #e6eaf2 100%); }
+
+/* Cards / surfaces (light) */
+html[data-theme="light"] .service-card,
+html[data-theme="light"] .product-item,
+html[data-theme="light"] .design-card,
+html[data-theme="light"] .feature-item,
+html[data-theme="light"] .founder-card,
+html[data-theme="light"] .process-step,
+html[data-theme="light"] .contact-form,
+html[data-theme="light"] .digital-card,
+html[data-theme="light"] .dstrip-item,
+html[data-theme="light"] .testimonial-card,
+html[data-theme="light"] .machine-showcase {
+    background: #ffffff;
+    border-color: rgba(0, 0, 0, 0.08);
+    box-shadow: 0 10px 30px rgba(13, 27, 42, 0.08);
+}
+html[data-theme="light"] .service-card:hover,
+html[data-theme="light"] .design-card:hover,
+html[data-theme="light"] .feature-item:hover,
+html[data-theme="light"] .product-item:hover,
+html[data-theme="light"] .digital-card:hover,
+html[data-theme="light"] .testimonial-card:hover,
+html[data-theme="light"] .machine-showcase:hover,
+html[data-theme="light"] .contact-form:hover {
+    background: #ffffff;
+    border-color: rgba(230, 57, 70, 0.3);
+}
+html[data-theme="light"] .product-item:hover { background: #ffffff; }
+
+/* Headings (light) */
+html[data-theme="light"] .section-header h2,
+html[data-theme="light"] .digital-services .section-header h2,
+html[data-theme="light"] .machines .section-header h2,
+html[data-theme="light"] .testimonials .section-header h2,
+html[data-theme="light"] .service-card h3,
+html[data-theme="light"] .product-item h3,
+html[data-theme="light"] .process-step h4,
+html[data-theme="light"] .feature-item h4,
+html[data-theme="light"] .founder-info h3,
+html[data-theme="light"] .samples-heading h3,
+html[data-theme="light"] .why-us-content h2,
+html[data-theme="light"] .digital-card h3,
+html[data-theme="light"] .machine-caption h3,
+html[data-theme="light"] .testimonial-author h4 { color: var(--dark); }
+
+/* Body text (light) */
+html[data-theme="light"] .section-header p,
+html[data-theme="light"] .digital-services .section-header p,
+html[data-theme="light"] .machines .section-header p,
+html[data-theme="light"] .testimonials .section-header p,
+html[data-theme="light"] .service-card > p,
+html[data-theme="light"] .product-item p,
+html[data-theme="light"] .process-step p,
+html[data-theme="light"] .feature-item p,
+html[data-theme="light"] .founder-info p,
+html[data-theme="light"] .why-us-desc,
+html[data-theme="light"] .digital-card > p,
+html[data-theme="light"] .samples-heading p,
+html[data-theme="light"] .machine-caption p,
+html[data-theme="light"] .testimonial-card > p,
+html[data-theme="light"] .testimonial-author span { color: var(--gray); }
+
+/* Lists (light) */
+html[data-theme="light"] .service-features li,
+html[data-theme="light"] .digital-features li,
+html[data-theme="light"] .machine-caption ul li,
+html[data-theme="light"] .dstrip-item { color: #444; }
+
+/* Component tweaks (light) */
+html[data-theme="light"] .digital-icon { border-color: rgba(0, 0, 0, 0.1); }
+html[data-theme="light"] .process-step .step-number { border-color: #ffffff; }
+html[data-theme="light"] .samples-block { border-color: rgba(0, 0, 0, 0.12); }
+html[data-theme="light"] .portfolio-note { background: linear-gradient(135deg, rgba(230, 57, 70, 0.05), rgba(244, 162, 97, 0.05)); border-color: rgba(230, 57, 70, 0.25); }
+html[data-theme="light"] .portfolio-note p { color: var(--secondary); }
+html[data-theme="light"] .founder-section .founder-card { border-color: rgba(0, 0, 0, 0.08); }
+
+/* Contact info card (light) */
+html[data-theme="light"] .contact-info {
+    background: linear-gradient(160deg, #ffffff 0%, #eef1f7 100%);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    color: var(--dark);
+}
+html[data-theme="light"] .contact-info h3,
+html[data-theme="light"] .info-item h4 { color: var(--dark); }
+html[data-theme="light"] .contact-info > p,
+html[data-theme="light"] .info-item p { color: var(--gray); }
+html[data-theme="light"] .contact-info .info-item i,
+html[data-theme="light"] .contact-info .social-links a { background: #eef1f7; color: var(--primary); }
+html[data-theme="light"] .contact-info .social-links a:hover { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: var(--white); }
+
+/* Form fields (light) */
+html[data-theme="light"] .form-group label { color: var(--dark); }
+html[data-theme="light"] .form-group input,
+html[data-theme="light"] .form-group select,
+html[data-theme="light"] .form-group textarea { background: #ffffff; border-color: var(--light-gray); color: #333; }
+
+/* Success message (light) */
+html[data-theme="light"] .success-message { background: linear-gradient(135deg, #d4edda, #c3e6cb); color: #155724; }
+
+/* Footer (light) */
+html[data-theme="light"] .footer { background: #f0f2f7; color: var(--dark); }
+html[data-theme="light"] .footer-grid { border-color: rgba(0, 0, 0, 0.1); }
+html[data-theme="light"] .footer-col > p,
+html[data-theme="light"] .footer-col ul li a,
+html[data-theme="light"] .footer-contact li { color: #5a6270; }
+html[data-theme="light"] .footer-col h4,
+html[data-theme="light"] .footer-logo .logo-text { color: var(--dark); }
+html[data-theme="light"] .footer-social a { background: #e2e6ef; color: var(--dark); }
+html[data-theme="light"] .footer-social a:hover { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: var(--white); }
+html[data-theme="light"] .footer-bottom { color: #8a919d; }
+
+/* Smooth theme switch */
+body, .navbar, .service-card, .digital-card, .testimonial-card,
+.product-item, .feature-item, .process-step, .contact-form,
+.footer, .machines, .testimonials, .digital-services { transition: background 0.4s ease, color 0.4s ease, border-color 0.4s ease; }
+
+/* Mobile nav panel (light) */
+@media (max-width: 768px) {
+    html[data-theme="light"] .nav-links {
+        background: rgba(255, 255, 255, 0.99);
+        box-shadow: -10px 0 50px rgba(0, 0, 0, 0.12);
+        border-left: 1px solid rgba(0, 0, 0, 0.06);
+    }
+    html[data-theme="light"] .nav-links a { color: var(--dark) !important; }
+    html[data-theme="light"] .nav-links a:hover { color: var(--primary) !important; }
+}

@@ -16,6 +16,28 @@ window.addEventListener('scroll', () => {
     }
 });
 
+// Theme toggle (dark / light)
+const themeToggle = document.getElementById('themeToggle');
+
+function applyThemeIcon() {
+    if (!themeToggle) return;
+    const icon = themeToggle.querySelector('i');
+    const isDark = document.documentElement.getAttribute('data-theme') !== 'light';
+    icon.classList.toggle('fa-sun', isDark);
+    icon.classList.toggle('fa-moon', !isDark);
+}
+
+if (themeToggle) {
+    applyThemeIcon();
+    themeToggle.addEventListener('click', () => {
+        const isLight = document.documentElement.getAttribute('data-theme') === 'light';
+        const next = isLight ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', next);
+        localStorage.setItem('srisign-theme', next);
+        applyThemeIcon();
+    });
+}
+
 // Mobile nav toggle
 const navToggle = document.getElementById('navToggle');
 const navLinks = document.getElementById('navLinks');

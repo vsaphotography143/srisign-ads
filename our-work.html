@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>document.documentElement.setAttribute('data-theme', (localStorage.getItem('srisign-theme') || 'dark'));</script>
 </head>
 <body>
 
@@ -19,6 +20,9 @@
                 <img src="images/logo-new.png" alt="SRI SIGN ADS Logo" class="logo-img">
                 <span class="logo-text">SRI<span> SIGN</span> ADS</span>
             </a>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle light or dark theme">
+                <i class="fas fa-sun"></i>
+            </button>
             <button class="nav-toggle" id="navToggle" aria-label="Menu">
                 <i class="fas fa-bars"></i>
             </button>
@@ -68,7 +72,7 @@
             </div>
             <div class="portfolio-3d">
                 <div class="design-card d1">
-                    <div class="design-img"><img src="images/design-brochure.svg" alt="Brochure design sample"></div>
+                    <div class="design-img"><img src="https://images.unsplash.com/photo-1586075010923-2dd4570fb338?auto=format&fit=crop&w=800&q=80" alt="Brochure design sample" loading="lazy"></div>
                     <div class="design-info">
                         <span class="design-cat">Brochure</span>
                         <h4>Trifold Catalogue</h4>
@@ -76,7 +80,7 @@
                     </div>
                 </div>
                 <div class="design-card d2">
-                    <div class="design-img"><img src="images/sample-flex-1.jpg" alt="Flex banner design sample"></div>
+                    <div class="design-img"><img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&w=800&q=80" alt="Flex banner design sample" loading="lazy"></div>
                     <div class="design-info">
                         <span class="design-cat">Flex Banner</span>
                         <h4>Sale Promotion</h4>
@@ -84,7 +88,7 @@
                     </div>
                 </div>
                 <div class="design-card d3">
-                    <div class="design-img"><img src="images/design-visiting.svg" alt="Visiting cards design sample"></div>
+                    <div class="design-img"><img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=800&q=80" alt="Visiting cards design sample" loading="lazy"></div>
                     <div class="design-info">
                         <span class="design-cat">Visiting Cards</span>
                         <h4>Business Card Set</h4>
@@ -92,7 +96,7 @@
                     </div>
                 </div>
                 <div class="design-card d4">
-                    <div class="design-img"><img src="images/design-wedding.svg" alt="Wedding card design sample"></div>
+                    <div class="design-img"><img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=800&q=80" alt="Wedding card design sample" loading="lazy"></div>
                     <div class="design-info">
                         <span class="design-cat">Wedding Card</span>
                         <h4>Gold Foil Invite</h4>
@@ -100,7 +104,7 @@
                     </div>
                 </div>
                 <div class="design-card d5">
-                    <div class="design-img"><img src="images/design-photoframe.svg" alt="Photo frame design sample"></div>
+                    <div class="design-img"><img src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&w=800&q=80" alt="Photo frame design sample" loading="lazy"></div>
                     <div class="design-info">
                         <span class="design-cat">Photo Frame</span>
                         <h4>Canvas Sunrise</h4>
@@ -108,7 +112,7 @@
                     </div>
                 </div>
                 <div class="design-card d6">
-                    <div class="design-img"><img src="images/design-formboard.svg" alt="Form board design sample"></div>
+                    <div class="design-img"><img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80" alt="Form board design sample" loading="lazy"></div>
                     <div class="design-info">
                         <span class="design-cat">Form Board</span>
                         <h4>Notice / Info Board</h4>
@@ -116,7 +120,7 @@
                     </div>
                 </div>
                 <div class="design-card d7">
-                    <div class="design-img"><img src="images/sample-telugu-1.jpg" alt="Telugu flex banner design sample"></div>
+                    <div class="design-img"><img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=800&q=80" alt="Telugu flex banner design sample" loading="lazy"></div>
                     <div class="design-info">
                         <span class="design-cat">Telugu Banner</span>
                         <h4>Telugu Flex Board</h4>
@@ -131,35 +135,35 @@
                 </div>
                 <div class="samples-grid">
                     <div class="sample-item">
-                        <div class="sample-img"><img src="images/sample-brochure-1.jpg" alt="Corporate brochure design sample"></div>
+                        <div class="sample-img"><img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=800&h=600&q=80" alt="Corporate brochure design sample" loading="lazy"></div>
                         <span class="sample-label">Brochure</span>
                     </div>
                     <div class="sample-item">
-                        <div class="sample-img"><img src="images/sample-brochure-2.jpg" alt="Orange tri-fold brochure design sample"></div>
+                        <div class="sample-img"><img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&h=600&q=80" alt="Orange tri-fold brochure design sample" loading="lazy"></div>
                         <span class="sample-label">Brochure</span>
                     </div>
                     <div class="sample-item">
-                        <div class="sample-img"><img src="images/sample-brochure-3.jpg" alt="Creative tri-fold brochure design sample"></div>
+                        <div class="sample-img"><img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&h=600&q=80" alt="Creative tri-fold brochure design sample" loading="lazy"></div>
                         <span class="sample-label">Brochure</span>
                     </div>
                     <div class="sample-item">
-                        <div class="sample-img"><img src="images/sample-brochure-4.jpg" alt="Colourful brochure flyer design sample"></div>
+                        <div class="sample-img"><img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&h=600&q=80" alt="Colourful brochure flyer design sample" loading="lazy"></div>
                         <span class="sample-label">Flyer</span>
                     </div>
                     <div class="sample-item">
-                        <div class="sample-img"><img src="images/sample-cards-1.jpg" alt="Business visiting card design sample"></div>
+                        <div class="sample-img"><img src="https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?auto=format&fit=crop&w=800&h=600&q=80" alt="Business visiting card design sample" loading="lazy"></div>
                         <span class="sample-label">Visiting Cards</span>
                     </div>
                     <div class="sample-item">
-                        <div class="sample-img"><img src="images/sample-cards-2.jpg" alt="Red business card design sample"></div>
+                        <div class="sample-img"><img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&h=600&q=80" alt="Red business card design sample" loading="lazy"></div>
                         <span class="sample-label">Visiting Cards</span>
                     </div>
                     <div class="sample-item">
-                        <div class="sample-img"><img src="images/sample-wedding-1.jpg" alt="Pastel wedding invitation card design sample"></div>
+                        <div class="sample-img"><img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=800&h=600&q=80" alt="Pastel wedding invitation card design sample" loading="lazy"></div>
                         <span class="sample-label">Wedding Card</span>
                     </div>
                     <div class="sample-item">
-                        <div class="sample-img"><img src="images/sample-wedding-2.jpg" alt="Traditional Indian wedding card design sample"></div>
+                        <div class="sample-img"><img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=800&h=600&q=80" alt="Traditional Indian wedding card design sample" loading="lazy"></div>
                         <span class="sample-label">Wedding Card</span>
                     </div>
                 </div>
